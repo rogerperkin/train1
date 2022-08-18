@@ -8,7 +8,6 @@ sandbox-iosxe-latest-1.cisco.com
 [CSR_Routers]
 R1 ansible_host=192.168.1.220
 
-
 [SWITCHES]
 2960 ansible_host=192.168.1.250
 

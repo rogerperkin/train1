@@ -1,0 +1,18 @@
+---
+## Playbook to configure some stuff 
+
+- hosts: CSR_Routers
+
+  tasks:
+  - name: Push config file 
+    cisco.ios.ios_config:
+      src: "./test.txt"
+      save_when: always
+
+  tasks:
+  - name: Push config file 
+    cisco.ios.ios_config:
+      src: "deploy.j2"
+
+
+    

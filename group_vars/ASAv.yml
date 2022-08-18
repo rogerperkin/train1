@@ -1,0 +1,7 @@
+---
+# Default Login details 
+
+ansible_user: "security_user1"
+ansible_ssh_pass: "cisco"
+ansible_network_os: "ios"
+ansible_connection: "network_cli"
